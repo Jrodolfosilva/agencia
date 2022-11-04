@@ -4,24 +4,40 @@ export const ContainerHeader = styled.header`
 display: flex;
 justify-content: space-between;
 align-items: center;
-margin-top: 30px;
-padding: 10px 100px;
+padding: 35px 0px 05px 0px;
+color:#fff;
 
 ul{
     display: flex;
     align-items: center;
-    gap:40px;
+    gap:25px;
 
 
     li{
         font-size: 18px;
         font-weight: 500;
+        cursor: pointer;
+        padding: 5px 10px;
+        transition: 0.5s;
+
+        &:hover{
+        color: #222;
+        }
+
     }
+
     li:last-child{
-                border: 1px solid red;
+                border: 1px solid #fff;
                 border-radius: 8px;
                 padding:8px 10px;
+                transition: 0.7s;
+
+                &:hover{
+                color: #000;
+                background-color: #fff;
+                }
     }
+   
 }
 
 @media (max-width:768px) {
