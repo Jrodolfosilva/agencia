@@ -14,9 +14,7 @@ const Home = ()=>{
                   Construimos e gerenciamos sites com layouts 100% exclusivos para a sua marca, de Alto Impacto que geram leads, vendem produtos e contam histórias.
 
                 </p>
-                <p>
-                Consultória de SEO para um melhor posicionamento no Google.
-                </p>
+                <button>Saber mais</button>
                 <div>
                     <p>
                     Tecnologias utilizadas:

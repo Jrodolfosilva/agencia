@@ -1,9 +1,15 @@
 import styled from "styled-components";
 
 export const ContainerHome = styled.section`
-margin-top:150px;
+margin-top:120px;
 display: flex;
 color: #fff;
+padding: 0 100px;
+padding-bottom: 30px;
+width: 100%;
+background: linear-gradient(171deg, rgba(0,0,0,1) 42%, rgba(0,0,0,1) 61%, rgba(128,127,119,1) 85%);
+
+
 
 div:first-child{
     max-width: 37vw;
@@ -19,6 +25,20 @@ p{
     font-weight: 300;
     color:rgb(255,255,255);
     margin-bottom:20px ;
+}
+
+button{
+    width: 200px;
+    height: 40px;
+    border-radius: 12px;
+    border: none;
+    font-size: 18px;
+    font-weight: 800;
+    cursor: pointer;
+    &:hover{
+        background-color: yellow;
+        color: #fff;
+    }
 }
 
 div{
@@ -39,6 +59,31 @@ div{
 
 }
 
+@media (max-width:768px) {
+    padding: 0px 10px;
+    margin-top: 30px;
+    
+   div:first-child{
+   max-width: 100vw;
 
+    h1{
+        font-size: 22px;
+    }
+
+    p{
+        font-size: 16px;
+    }
+   }
+
+   div:last-child{
+    img{
+        display: none;
+    }
+   }
+
+
+
+
+}
 
 `
