@@ -4,9 +4,9 @@ export const ContainerHeader = styled.header`
 display: flex;
 justify-content: space-between;
 align-items: center;
-padding: 35px 100px 05px 100px;
+padding: 25px 100px 025px 100px;
 color:#fff;
-
+border-bottom: 1px solid #222;
 ul{
     display: flex;
     align-items: center;
@@ -27,14 +27,13 @@ ul{
     }
 
     li:last-child{
-                border: 1px solid #fff;
                 border-radius: 8px;
                 padding:8px 10px;
                 transition: 0.7s;
+                background-image: linear-gradient(135deg, rgb(59, 223, 210) 0%, rgb(5, 116, 95) 100%);
 
                 &:hover{
-                color: #000;
-                background-color: #fff;
+                color: #fff;
                 }
     }
    

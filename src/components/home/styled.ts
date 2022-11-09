@@ -28,15 +28,18 @@ p{
 }
 
 button{
-    width: 200px;
-    height: 40px;
+    width: 300px;
+    height: 50px;
     border-radius: 12px;
     border: none;
     font-size: 18px;
     font-weight: 800;
+    color: #fff;
     cursor: pointer;
+    background-image: linear-gradient(135deg, rgb(59, 223, 210) 0%, rgb(5, 116, 95) 100%);
+
     &:hover{
-        background-color: yellow;
+        
         color: #fff;
     }
 }
