@@ -2,13 +2,14 @@ import styled from "styled-components";
 
 export const ContainerAbout = styled.section`
 
-height: 100vh;
+
 
 
 
 
 background-color: #fff;
 display: flex;
+flex-wrap: wrap;
 justify-content: space-between;
 align-items: center;
 
@@ -44,6 +45,23 @@ div:last-child{
         font-weight: 600;
         font-size: 44px;
         margin-bottom: 30px;
+    }
+
+
+}
+
+
+@media (max-width:768px) {
+    
+    div:last-child{
+        padding: 0px 10px;
+       min-width: 100vw;
+        h2{
+            font-size:22px;
+        }
+        p{
+            text-align: justify;
+        }
     }
 
 

@@ -20,7 +20,7 @@ h2{
 section{
 display: flex;
 flex-wrap: wrap;
-padding: 50px 200px;
+padding: 50px 100px;
 gap:50px;
 
 div{
@@ -31,6 +31,19 @@ div{
     border-radius: 12px;
     
 }
+}
+
+@media (max-width: 768px) {
+    
+
+    section{
+        padding: 50px 10px;
+
+        div{
+            min-width: 150px;
+        }
+    }
+
 
 
 }
