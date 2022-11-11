@@ -21,7 +21,7 @@ section{
 display: flex;
 flex-wrap: wrap;
 padding: 50px 100px;
-gap:50px;
+gap:80px;
 
 div{
     margin: 0 auto;;
