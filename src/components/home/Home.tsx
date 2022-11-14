@@ -1,11 +1,13 @@
 import React from "react";
 import {ContainerHome} from "./styled"
 import provisorio from "../../assets/provisorio.png"
+import Header from "../header/Header";
 
 
 const Home = ()=>{
     return(
         <ContainerHome>
+            
             <div>
                 <h1>
                     Desenvolvimento Web de Alta Performance

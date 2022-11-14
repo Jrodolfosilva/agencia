@@ -5,8 +5,13 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 padding: 25px 100px 025px 100px;
-color:#fff;
-border-bottom: 1px solid #222;
+color:#000;
+z-index: 99;
+position: fixed;
+min-width: 100%;
+background-color: #fff;
+border-bottom: 1px solid #fff;
+
 ul{
     display: flex;
     align-items: center;
@@ -31,9 +36,9 @@ ul{
                 padding:8px 10px;
                 transition: 0.7s;
                 background-image: linear-gradient(135deg, rgb(59, 223, 210) 0%, rgb(5, 116, 95) 100%);
-
-                &:hover{
                 color: #fff;
+                &:hover{
+                
                 }
     }
    

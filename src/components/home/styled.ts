@@ -1,16 +1,14 @@
 import styled from "styled-components";
 
 export const ContainerHome = styled.section`
-margin-top:120px;
+min-height: 100vh;
 display: flex;
-color: #fff;
+color: #000;
 padding: 0 100px;
+padding-top: 150px;
 padding-bottom: 30px;
 width: 100%;
-background: linear-gradient(171deg, rgba(0,0,0,1) 42%, rgba(0,0,0,1) 61%, rgba(128,127,119,1) 85%);
-
-
-
+background-color: #fff;
 div:first-child{
     max-width: 37vw;
     h1{
@@ -23,7 +21,7 @@ p{
     font-family: "Space Grotesk", serif;
     font-size: 18px;
     font-weight: 300;
-    color:rgb(255,255,255);
+    color:#000;
     margin-bottom:20px ;
 }
 
@@ -55,7 +53,7 @@ div{
         font-family: "Space Grotesk", serif;
         font-size: 14px;
         font-weight: 500;
-        color:#fff;
+        color:#000;
     }
 } 
 
