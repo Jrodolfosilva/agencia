@@ -73,7 +73,7 @@ div:last-child{
 }
 @media (max-width:768px) {
     padding: 0px 10px;
-    margin-top: 30px;
+    margin-top: 80px;
     
    div:first-child{
    max-width: 100vw;

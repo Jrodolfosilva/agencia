@@ -23,10 +23,11 @@ ul{
         font-weight: 400;
         cursor: pointer;
         padding: 5px 10px;
-        transition: 0.5s;
+        height: 30px;
 
         &:hover{
-        color: #222;
+            border-bottom: 3px solid #67a6bb;
+           
         }
 
     }
@@ -47,8 +48,9 @@ section{
                 transition: 0.7s;
                 background-image: linear-gradient(135deg, rgb(59, 223, 210) 0%, rgb(5, 116, 95) 100%);
                 color: #fff;
+                height: auto;
                 &:hover{
-                
+                border: none;
                 }
     }
 }
@@ -57,7 +59,10 @@ section{
     height: 80px;
     padding: 5px;
     position: relative;
-    background-color: black;
+    background-color: rgb(7, 8, 24);
+    color: #fff;
+    position: fixed;
+    top: 0;
 
     nav{
         display: none;
@@ -72,8 +77,8 @@ section{
             top:80px;
             right:0%;
             width:70vw;
-            height:90vh;
-            background-color:red;
+            height:100vh;
+            background-color:rgb(7, 8, 24);
             flex-direction:column;
             padding: 20px 0px;
             animation:Show 0.5s linear forwards;
@@ -83,6 +88,11 @@ section{
         }
 
 
+    }
+    section{
+        ul li{
+            display:none;
+        }
     }
 }
 
