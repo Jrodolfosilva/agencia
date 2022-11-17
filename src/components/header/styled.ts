@@ -10,7 +10,7 @@ z-index: 99;
 position: fixed;
 min-width: 100%;
 background-color: #fff;
-border-bottom: 1px solid #fff;
+border-bottom: 1px solid #2222;
 
 ul{
     display: flex;
@@ -19,8 +19,8 @@ ul{
 
 
     li{
-        font-size: 18px;
-        font-weight: 500;
+        font-size: 16px;
+        font-weight: 400;
         cursor: pointer;
         padding: 5px 10px;
         transition: 0.5s;
@@ -31,6 +31,16 @@ ul{
 
     }
 
+  
+   
+}
+
+section{
+    display: flex;
+    align-items: center;
+    img{
+        width: 14px;
+    }
     li:last-child{
                 border-radius: 8px;
                 padding:8px 10px;
@@ -41,7 +51,6 @@ ul{
                 
                 }
     }
-   
 }
 
 @media (max-width:768px) {

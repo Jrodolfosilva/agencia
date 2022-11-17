@@ -3,12 +3,15 @@ import styled from "styled-components";
 export const ContainerHome = styled.section`
 min-height: 100vh;
 display: flex;
-color: #000;
+gap: 200px;
+justify-content: space-between;
+align-items: center;
+color: rgb(7, 8, 24);
 padding: 0 100px;
 padding-top: 150px;
 padding-bottom: 30px;
-width: 100%;
-background-color: #fff;
+
+
 div:first-child{
     max-width: 37vw;
     h1{
@@ -59,7 +62,15 @@ div{
 
 
 }
-
+div:last-child{
+    width: auto;
+    img{
+        width: 100%;
+        max-height: 510px;
+        margin: 0 auto;
+        display: block;
+    }
+}
 @media (max-width:768px) {
     padding: 0px 10px;
     margin-top: 30px;

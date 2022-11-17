@@ -1,7 +1,6 @@
 import React from "react";
 import {ContainerHome} from "./styled"
-import provisorio from "../../assets/provisorio.png"
-import Header from "../header/Header";
+import network from "../../assets/bus.png"
 
 
 const Home = ()=>{
@@ -30,7 +29,7 @@ const Home = ()=>{
                 </div>
             </div>
             <div>
-                <img src={""} alt="imagem-desenvolvimento-web-sites-eficiente-barato-e-performatico"/>
+                <img src={network} alt="imagem-desenvolvimento-web-sites-eficiente-barato-e-performatico"/>
             </div>
         </ContainerHome>
     )

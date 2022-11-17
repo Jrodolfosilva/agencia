@@ -11,9 +11,9 @@ const About = ()=>{
                 <img src={fotoperfil} alt="FOTO-PERFIL" />
             </div>
             <div>
-                <p>About</p>
+                <p>Quem Somos</p>
                 <h2>
-                    A few words about me
+                        Conheça um pouco da nossa história
                 </h2>
                 <p>
                  In eu nunc ut tortor lobortis aliquam et at arcu.

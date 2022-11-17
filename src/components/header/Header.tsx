@@ -3,6 +3,7 @@ import {useState} from "react"
 import {ContainerHeader, ContainerMobile} from "./styled"
 import open from "../../assets/drop.svg"
 import close from "../../assets/close.svg"
+import flash from "../../assets/lightning.png"
 const Header = ()=>{
 
 const [Mobile, setMobile] = useState(false)
@@ -13,11 +14,19 @@ const [Mobile, setMobile] = useState(false)
             <nav>
                 <ul>
                     <li>Home</li>
-                    <li>Equipe</li>
+                    <li>Quem Somos</li>
+                    <li>Blog</li>
                     <li>Soluções</li>
                     <li>Fale conosco</li>
                 </ul>
             </nav>
+            <section>
+                <ul>
+                    <li>
+                        <img src={flash} alt="" />
+                        ORÇAMENTO RÁPIDO</li>
+                </ul>
+            </section>
             <ContainerMobile
             onClick={()=>setMobile(!Mobile)}
             >

@@ -45,6 +45,7 @@ div:last-child{
         font-weight: 600;
         font-size: 44px;
         margin-bottom: 30px;
+        color: rgb(7, 8, 24);
     }
 
 
