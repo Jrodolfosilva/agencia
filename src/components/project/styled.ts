@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-
 export const ContainerProject = styled.section`
 background-color: rgb(7, 8, 24);
 color: #fff;

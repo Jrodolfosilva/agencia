@@ -5,7 +5,6 @@ min-height: 100vh;
 display: flex;
 gap: 200px;
 justify-content: space-between;
-align-items: center;
 color: rgb(7, 8, 24);
 padding: 0 100px;
 padding-top: 150px;
@@ -13,16 +12,16 @@ padding-bottom: 30px;
 
 
 div:first-child{
-    max-width: 37vw;
+    max-width: 25vw;
     h1{
     font-family: "Space Grotesk", serif;
-    font-size: 58px;
-    font-weight: 500;
+    font-size: 48px;
+    font-weight: bolder;
     margin-bottom: 20px;
 }
 p{
     font-family: "Space Grotesk", serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 300;
     color:#000;
     margin-bottom:20px ;
@@ -66,30 +65,46 @@ div:last-child{
     width: auto;
     img{
         width: 100%;
-        max-height: 510px;
         margin: 0 auto;
         display: block;
     }
 }
+
+
+
+
+
 @media (max-width:768px) {
-    padding: 0px 10px;
+    padding: 20px 10px 0px 10px;
     margin-top: 80px;
+    flex-direction: column-reverse;
+    gap: 10px;
     
    div:first-child{
    max-width: 100vw;
 
     h1{
-        font-size: 22px;
+        font-size: 20px;
+        margin-bottom: 10px;
     }
 
     p{
-        font-size: 16px;
+        font-size: 14px;
+        margin-bottom: 10px;
     }
+    
+    button{
+    position: fixed;
+    top:90vh;
+    z-index: 99;
+    }
+
    }
 
    div:last-child{
     img{
-        display: none;
+        display:block;
+        width: 100%;
     }
    }
 

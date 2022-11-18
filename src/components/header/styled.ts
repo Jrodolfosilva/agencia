@@ -26,7 +26,8 @@ ul{
         height: 30px;
 
         &:hover{
-            border-bottom: 3px solid #67a6bb;
+            color:rgb(0, 169, 157);
+            border-bottom: 3px solid rgb(0, 169, 157);
            
         }
 

@@ -53,7 +53,13 @@ div:last-child{
 
 
 @media (max-width:768px) {
-    
+    div:first-child{
+/*Seção/div onde fica a foto do perfil do programador */
+
+img{
+    display: none;
+}
+}
     div:last-child{
         padding: 0px 10px;
        min-width: 100vw;
